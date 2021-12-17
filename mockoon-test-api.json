@@ -1,0 +1,125 @@
+{
+    "source": "mockoon:1.17.0",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "f13a899b-d057-4a1e-bb96-19861b0d08d4",
+                "lastMigration": 19,
+                "name": "Mockoon test",
+                "endpointPrefix": "",
+                "latency": 0,
+                "port": 1236,
+                "hostname": "0.0.0.0",
+                "routes": [
+                    {
+                        "uuid": "5bfea4cc-9f82-4edb-875e-92886e89f026",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "test-get",
+                        "responses": [
+                            {
+                                "uuid": "3bc596dc-a2bc-4e69-833a-618213311386",
+                                "body": "{\n  \"success\": true\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "19bb9970-db28-4e54-8afc-958d268159ef",
+                        "documentation": "",
+                        "method": "post",
+                        "endpoint": "test-post",
+                        "responses": [
+                            {
+                                "uuid": "d8cf3718-2c16-4050-90c7-c452bd0987b3",
+                                "body": "{\n  \"success\": true\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "7b7b04d0-c440-46fa-b1f8-f09986e0ff9b",
+                        "documentation": "",
+                        "method": "options",
+                        "endpoint": "test-options",
+                        "responses": [
+                            {
+                                "uuid": "f984b931-c1c2-495d-af6f-fd683c229384",
+                                "body": "{\n  \"success\": true\n}",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "",
+                "proxyRemovePrefix": false,
+                "tlsOptions": {
+                    "enabled": false,
+                    "type": "CERT",
+                    "pfxPath": "",
+                    "certPath": "",
+                    "keyPath": "",
+                    "caPath": "",
+                    "passphrase": ""
+                },
+                "cors": true,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "proxyReqHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyResHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
